@@ -15,6 +15,7 @@ NASAのDONKI APIを使用して、直近4回分の観測された太陽フレア
 
 
 ###Published Topics
+
 - cla(std_msgs.msg/Stirng)
   - 直近4回観測された太陽フレアのクラス分類
 ##listenerノード
