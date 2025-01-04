@@ -13,7 +13,19 @@ ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.i
 ## ROS2バージョン
 
 - ROS2 foxy
-# 導入方法
+## 導入方法
+- コマンドラインでディレクトリをクローンしたい場所で以下のコマンドを実行してください
+
+
+```
+git clone https://github.com/sekiguchi7274/mypkg.git
+```
+
+
+##使用方法
+```
+cd mypkg && ros2 run mypkg solar_flare_talker
+```
 # ノード
 ## solar_flare_talkerノード
 NASAのDONKI APIを使用して、直近4回分の観測された太陽フレアのクラス分類をパブリッシュするノード。
