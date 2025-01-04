@@ -15,16 +15,12 @@ ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.i
 ## solar_flare_talkerノード
 NASAのDONKI APIを使用して、直近4回分の観測された太陽フレアのクラス分類をパブリッシュするノード。
 
-
 ### Published Topics
-
 - cla(std_msgs.msg/Stirng)
   - 直近4回観測された太陽フレアのクラス分類
 
 ## listenerノード
-
 テスト用ノード。
 
 # テスト環境
-
 - Ubuntu 22.04.5 LTS
