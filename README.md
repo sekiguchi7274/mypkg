@@ -8,7 +8,9 @@
 
 
 ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html#1 "ロボットシステム学第8回目")を参考にしていただくと、ROS2を導入しやすいかもしれません。
-## 導入方法
+## ROS2バージョン
+
+- ROS2 foxy
 # ノード
 ## solar_flare_talkerノード
 NASAのDONKI APIを使用して、直近4回分の観測された太陽フレアのクラス分類をパブリッシュするノード。
@@ -18,7 +20,11 @@ NASAのDONKI APIを使用して、直近4回分の観測された太陽フレア
 
 - cla(std_msgs.msg/Stirng)
   - 直近4回観測された太陽フレアのクラス分類
+
 ##listenerノード
+
 テスト用ノード。
+
 #テスト環境
--
+
+- Ubuntu 22.04.5 LTS
