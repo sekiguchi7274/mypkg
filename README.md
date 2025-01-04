@@ -25,6 +25,24 @@ git clone https://github.com/sekiguchi7274/mypkg.git
 ## 使用方法
 ```
 cd mypkg && ros2 run mypkg solar_flare_talker
+
+### 実行結果 ###
+
+ros2 topic echo /cla
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
+data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
+---
 ```
 # ノード
 ## solar_flare_talkerノード
