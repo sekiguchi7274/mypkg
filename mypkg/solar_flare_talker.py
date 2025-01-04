@@ -28,7 +28,7 @@ class SolarFlareTalker(Node):
         msg = String()
         msg.data = ' '.join(class_types) if class_types else 'No solar flares'
         self.pub.publish(msg)
-        self.get_logger().info(f'Published solar flare class types: {msg.data}')
+        #self.get_logger().info(f'Published solar flare class types: {msg.data}')
 
         
 def main():
