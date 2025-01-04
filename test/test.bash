@@ -8,6 +8,4 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-timeout 30 ros2 topic echo /cla > /tmp/mypkg.log
-
-cat /tmp/mypkg.log | grep 'X'
+timeout 30 ros2 topic echo /cla | grep 'X'
