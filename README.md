@@ -13,7 +13,7 @@ ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.i
 ## ROS2バージョン
 
 - ROS2 foxy
-#導入方法
+# 導入方法
 # ノード
 ## solar_flare_talkerノード
 NASAのDONKI APIを使用して、直近4回分の観測された太陽フレアのクラス分類をパブリッシュするノード。
@@ -32,3 +32,7 @@ NASAのDONKI APIを使用して、直近4回分の観測された太陽フレア
 - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 - [datetime --- 基本的な日付と時間の型](https://docs.python.org/ja/3.13/library/datetime.html)
 # 権利関係
+- このソフトウェアパッケージは、3条項BSDライセンスの下、再頒布および使用が許可されます。
+
+
+© 2025 Tomoyuki Sekiguchi
