@@ -13,16 +13,7 @@ ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.i
 ## ROS2バージョン
 
 - ROS2 Humble
-## 導入方法
-- コマンドラインでディレクトリをクローンしたい場所で以下のコマンドを実行してください
-
-
-```
-git clone https://github.com/sekiguchi7274/mypkg.git
-```
-
-
-## 使用方法
+## 使用例
 ```
 cd mypkg && ros2 run mypkg solar_flare_talker
 
