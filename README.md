@@ -22,7 +22,7 @@ git clone https://github.com/sekiguchi7274/mypkg.git
 ```
 
 
-##使用方法
+## 使用方法
 ```
 cd mypkg && ros2 run mypkg solar_flare_talker
 ```
