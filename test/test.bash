@@ -10,4 +10,4 @@ colcon build
 source $dir/.bashrc
 timeout 30 ros2 topic echo /cla > /tmp/mypkg.log
 
-cat /tmp/mypkg.log | grep '---'
+cat /tmp/mypkg.log | grep 'X'
