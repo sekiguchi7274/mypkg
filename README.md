@@ -12,7 +12,7 @@
 ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html#1 "ロボットシステム学第8回目")を参考にしていただくと、ROS2を導入しやすいかもしれません。
 ## ROS2バージョン
 
-- ROS2 foxy
+- ROS2 Humble
 ## 導入方法
 - コマンドラインでディレクトリをクローンしたい場所で以下のコマンドを実行してください
 
