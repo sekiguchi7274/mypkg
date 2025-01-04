@@ -27,7 +27,7 @@ NASAのDONKI APIを使用して、直近4回分の観測された太陽フレア
 
 # テスト環境
 - Ubuntu 22.04.5 LTS
-#参考資料
+# 参考資料
 - [NASA(nasapy)のpythonライブラリを使ってみた](https://web3.hide.ac/articles/DJ_LTtilh)
 - [Markdown記法 チートシート](https://qiita.com/Qiita/items/c686397e4a0f4f11683d)
 - [datetime --- 基本的な日付と時間の型](https://docs.python.org/ja/3.13/library/datetime.html)
