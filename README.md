@@ -46,11 +46,11 @@ data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
 ```
 # ノード
 ## solar_flare_talkerノード
-NASAのDONKI APIを使用して、直近4回分の観測された太陽フレアのクラス分類をパブリッシュするノード。
+NASAのDONKI APIを使用して、今日の観測された太陽フレアのクラス分類をパブリッシュするノード。
 
 ### Published Topics
 - cla(std_msgs.msg/Stirng)
-  - 直近4回観測された太陽フレアのクラス分類
+  - 今日観測された太陽フレアのクラス分類
 
 ## listenerノード
 テスト用ノード。
