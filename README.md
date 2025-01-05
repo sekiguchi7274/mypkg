@@ -1,15 +1,11 @@
 # solar_flare_talker
 
 
-[![test](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml/badge.svg?branch=rebarth)](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml)
+[![test](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml)
 
 
-ロボットシステム学で課題2用に作成したものです。ROS2を使用しています。
+ロボットシステム学で課題2用に作成したROS2パッケージです。
 
-
-[ROS2を導入するのに使用したセットアップスクリプト](https://github.com/ryuichiueda/ros2_setup_scripts)
-
-ROS2を導入したことが無い方は[こちら](https://ryuichiueda.github.io/slides_marp/robosys2024/lesson8.html#1 "ロボットシステム学第8回目")を参考にしていただくと、ROS2を導入しやすいかもしれません。
 ## ROS2バージョン
 
 - ROS2 Humble
