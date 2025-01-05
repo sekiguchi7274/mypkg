@@ -8,4 +8,5 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
-timeout 30 ros2 run mypkg solar_flare_talker | ros2 topic echo /cla | grep 'X'
+timeout 30 ros2 launch mypkg talk_listen.launch.py | grep 'X'
+#wait $solar_flare_pid
