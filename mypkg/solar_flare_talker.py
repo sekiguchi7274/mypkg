@@ -7,13 +7,17 @@ from std_msgs.msg import String
 import requests
 import json
 from datetime import datetime, timedelta
+import os
+from dotenv import load_dotenv
+
+load_dotenv()
 
 class SolarFlareTalker(Node):
     def __init__(self):
         super().__init__("solar_flare_talker")
         self.pub = self.create_publisher(String, "cla", 10)
         self.create_timer(5, self.cb)
-        self.api_key = 'qguM24OrI2LaM6KWnc9xMF1u0iwcaHqg2JsvNyXH'
+        self.api_key = os.dotenv('API_KEY')
         self.url = f'https://api.nasa.gov/DONKI/FLR?startDate={self.get_start_date()}&endDate={self.get_end_date()}&api_key={self.api_key}'
     def get_start_date(self):
         return (datetime.now() - timedelta(days = 1)).strftime('%Y-%m-%d')
