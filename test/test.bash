@@ -8,4 +8,5 @@ dir=~
 cd $dir/ros2_ws
 colcon build
 source $dir/.bashrc
+timeout 30 ros2 launch mypkg talk_listen.launch.py
 timeout 30 ros2 launch mypkg talk_listen.launch.py | grep 'X'
