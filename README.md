@@ -1,7 +1,7 @@
 # solar_flare_talker
 
 
-[![test](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml/badge.svg)](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml)
+[![test](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml/badge.svg?branch=rebarth)](https://github.com/sekiguchi7274/mypkg/actions/workflows/test.yml)
 
 
 ロボットシステム学で課題2用に作成したROS2パッケージです。
