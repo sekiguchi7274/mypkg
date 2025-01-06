@@ -11,7 +11,7 @@
 - ROS2 Humble
 ## 使用例
 ```
-cd mypkg && ros2 run mypkg solar_flare_talker
+ros2 run mypkg solar_flare_talker
 
 ### 実行結果 ###
 
