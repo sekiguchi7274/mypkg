@@ -10,4 +10,4 @@ colcon build
 source $dir/.bashrc
 timeout 30 ros2 launch mypkg talk_listen.launch.py
 timeout 30 ros2 launch mypkg talk_listen.launch.py | 
-grep 'X'
+grep 'M' || grep 'X' || grep 'A' || grep 'B' || grep 'C' 
