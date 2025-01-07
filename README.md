@@ -12,11 +12,11 @@
 - ROS2 Humble
 ## 使用例
 ```
-ros2 run mypkg solar_flare_talker
+$ros2 run mypkg solar_flare_talker
 
 ### 実行結果(別のターミナルでの操作) ###
 
-ros2 topic echo /cla
+$ros2 topic echo /cla
 data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
 ---
 data: X1.2 M2.3 X1.1 M1.9 M5.8 M1.5
